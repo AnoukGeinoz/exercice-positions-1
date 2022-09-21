@@ -42,3 +42,78 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+  margin: 15px;
+  position: relative;
+}
+
+.icon {
+  background: #d8d8d8;
+  height: 44px;
+  width: 44px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.side-widget {
+  position: fixed;
+  background: #e00000;
+  height: 80px;
+  width: 40px;
+  top: 140px;
+  left: 0;
+  z-index: 2;
+}
+
+header {
+  background: #4c4c4c;
+  width: 390px;
+  height: 44px;
+}
+
+.overlay-1 {
+  background-color: #d8d8d8;
+  width: 360px;
+  height: 44px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  opacity: 58%;
+}
+
+.bottom-widget {
+  background: #e00000;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+.small-icon-1,
+.small-icon-2,
+.small-icon-3 {
+  background-color: #d8d8d8;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 15px;
+}
+
+.small-icon-1 {
+  left: 15px;
+}
+
+.small-icon-2 {
+  left: 45px;
+}
+
+.small-icon-3 {
+  left: 75px;
+}
